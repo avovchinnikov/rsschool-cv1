@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- style link -->
+  <link rel="stylesheet" href="style.css">
+  <title>Anton Ovchinnikov</title>
+</head>
+<body>
+  <div class="main-background">
+    <!-- container -->
+    <div class="container">
+      <header class="main-header">
+        <!-- my photo -->
+        <div class="avatar">
+          <img class="my-photo" src="Avatar.jpg" alt="Anton Photo">
+        </div>
+        <!-- head -->
+        <h1>Hi, Anton Ovchinnikov here!</h1> 
+        <!-- description -->
+        <section class="contacts">
+          I'm 31 y.o. designer and junior web-developer.<br>
+          Сontact me by email: <a href="mailto:toxadesign@gmail.com" target="blank"><b>toxadesign@gmail.com</b></a> or telegram: <a href="tg://resolve?domain=@t0shii" target="blank"><b>@t0shii</b></a>.    
+        </section>
+      </header>
+      <main>
+        <!-- about -->
+      <section class="about">
+        I would like to work on a cool product, and then come up with and launch my own projects. 
+        I am productive, disciplined and motivated. I approach my work responsibly. 
+        In my previous job, I single-handedly supervised orders for large clients, such as Gazprom, the Hermitage.
+        He built all communication with the client and convinced him to make the right decisions. 
+        I have been working as a graphic designer for 7 years, the last few years I have been interested in web design and development.
+      </section>
+      <!-- code example -->
+      <section class="code-example-block">
+        <b>Code example:</b>
+        <div class="code-example">
+          
+            <pre>
+              <code>
+                $(document).ready(function(){
+                  $('.owl-carousel').slick({
+                    accessibility:true,
+                    
+                  });
+                  
+                  $(".btn-nav").on("click", function(){
+                    var target = $(this) .data("target");
+                    $(target).toggleClass("open");
+                  });
+                });
+              </code>
+            </pre>       
+          </div>
+        </section>
+        <!-- skills, experience, education, english -->
+        <section class="skills">
+          <ul class="skills-list">
+            <li class="skills-list-item"><b>Skills:</b> HTML, CSS, Less, Sass, BEM, basic JS, Jquery, 1c-bitrix, Git+github beginner.</li>
+            <li class="skills-list-item"><b>Work Experience:</b> 8 лет в индустрии печатного дизайна. Два года фриланс веб дизайнер. Мои работы на <a href="https://www.behance.net/salazar_selezen" target="blank">Behance</a>.</li>
+            <li class="skills-list-item"><b>Skills:</b> HTML, CSS, Less, Sass, BEM, basic JS, Jquery, 1c-bitrix, Git+github beginner.</li>
+            <li class="skills-list-item"><b>Education:</b> 2007-2011 Vyatka State University of Humanities, Graphic design. 2015 HTML Academt, Basic HTML&CSS</li>
+            <li class="skills-list-item"><b>English:</b> А2</li>
+          </ul>
+        </section>
+      </main>
+      <hr>
+      <div class="main-footer">
+        <div class="rsschool-logo">
+          <a href="https://rs.school/js/" target="blank">    
+            <img src="rs_school_js.svg" alt="Logo Rsschool">
+          </a>   
+          
+        </div>
+        <div class="my-info">
+          <span><a href="https://github.com/marmegot" target="blank">My GitHub</a></span><br>
+          <span>2021</span>
+        </div>
+      </div>     
+    </div>
+  </div>
+</body>
+</html>

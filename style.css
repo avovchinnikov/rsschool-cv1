@@ -1,0 +1,66 @@
+/* Global Style */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+  background-color: #0D1117;
+  color: rgb(207, 205, 205);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:600;
+}
+
+section { margin-bottom: 30px;}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover{ color:#58A6FF;}
+
+hr{
+  border: 1px solid #161B22;
+  margin-top: 80px;
+}
+/* Class style */
+.container {
+  padding-top: 50px;
+  width: 50rem;
+  margin: 0 auto;
+}
+
+
+
+.my-photo { border-radius:100% ;}
+
+.about {; }
+
+.code-example { 
+    border-radius:10px;
+    background-color: #161B22; 
+
+}
+
+.skills-list-item{
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.main-footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rsschool-logo{
+  width: 150px;
+  height: auto;
+}
+
+.my-info{
+  text-align: right;
+}
