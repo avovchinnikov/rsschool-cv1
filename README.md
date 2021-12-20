@@ -1,1 +1,1 @@
-https://marmegot.github.io/rsschool-cv
+https://avovchinnikov.github.io/rsschool-cv
